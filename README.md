@@ -1,11 +1,5 @@
----
-title: GSOC final submission report
-
----
-
-![Google summer of code](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP9mSaWLVqq3LSI-TQB6u-YcHCga03BTo2SJ12SGHBbykk6BTT-Vu3kWn5gKWdRQcd-Em_D3CSFh387lN_cHqjktA84KG3YXgIOevo4NfV5lV23_BOLP_ndIiA_f-Yy4BKPTF3UZRsxcyp-1fv_cNo9B60Xkk-i1pOYjhGOCZkspcIvD36J61mDmOttlA/s1600/GSoC%20Banner.png)
-
-![sktime](https://www.sktime.net/en/v0.15.1/_static/sktime-logo-text-horizontal.png)
+<img src="assets/gsoc-sktime-banner.png" alt="Google Summer of Code 2024 - Sktime Project Banner" width="100%">
+<hr>
 
 
 ### Goals:
@@ -65,7 +59,7 @@ The PR adding `moirai_forecaster` is currently under review, due to delay in wor
 2. The package in which MOIRAI lives is [uni2ts](https://github.com/SalesforceAIResearch/uni2ts) from SalesforceAIReasearch. Due to uni2ts not being hosted on PyPi I had to vendor the code specific to MOIRAI in `sktime/libs` and make it compatible with sktime's MOIRAI implementation.
 3. The old weights of MOIRAI where serialized along with imports to original classes in `uni2ts` which I had to patch and redirect the imports to `sktime/libs/uni2ts`.
 
-### Some minor enhancments, bugs and fixes
+### Some minor enhancements, bugs and fixes
 
 
 | Description | PR/Issue | Status |
