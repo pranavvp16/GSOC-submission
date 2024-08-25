@@ -27,6 +27,7 @@ The work done here enables users of sktime to pass polars dataframe in there des
 
 
 **Notebook**
+
 [Notebook demonstrating polars mtypes examples and conversions](https://github.com/pranavvp16/GSOC-submission/blob/main/notebooks/polars_support.ipynb)
 
 **Challenges**
@@ -64,7 +65,7 @@ The PR adding `moirai_forecaster` is currently under review, due to delay in wor
 
 | Description | PR/Issue | Status |
 | -------- | -------- | -------- |
-| NeuralForecast LSTM model     | [sktime/#6047](#https://github.com/sktime/sktime/pull/6047)    | Marged, Approved  |
+| NeuralForecast LSTM model     | [sktime/#6047](https://github.com/sktime/sktime/pull/6047)    | Marged, Approved  |
 | Interface AutoLSTM from neuralforecast| [sktime/#6107](https://github.com/sktime/sktime/pull/6107) | PR in progress|
 | Update metadict for polars mtype| [sktime/#5423](https://github.com/sktime/sktime/issues/5423) | Closed
 | Fix nested_univ handling index names | [sktime/#7026](https://github.com/sktime/sktime/pull/7026) | Under Review
