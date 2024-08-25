@@ -33,7 +33,7 @@ The work done here enables users of sktime to pass polars dataframe in there des
 
 
 **Notebook**
-[Notebook demonstrating polars mtypes examples and conversions]()
+[Notebook demonstrating polars mtypes examples and conversions](https://github.com/pranavvp16/GSOC-submission/blob/main/notebooks/polars_support.ipynb)
 
 **Challenges**
 
@@ -57,7 +57,7 @@ The PR adding `moirai_forecaster` is currently under review, due to delay in wor
 
 **Notebook**
 
-[Notebook demonstrating interface of MOIRAI]()
+[Notebook demonstrating interface of MOIRAI](https://github.com/pranavvp16/GSOC-submission/blob/main/notebooks/forecasting_with_moirai.ipynb)
 
 **Challenges**
 
