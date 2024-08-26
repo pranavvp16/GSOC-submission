@@ -10,6 +10,13 @@
 
 ### Mentors : [Benedikt Heidrich](https://github.com/benHeid), [Franz Király](https://github.com/fkiraly) 
 
+### Key Outcomes:
+- Learned about different ways to represent data and various other data libraries like polars and gluonts.
+- Creating and uploading models to hugging face with git lfs.
+- Improved programming skills to write more modular and DRY code, where new features can be added without revamping the whole code.
+- Got familiar with the deep learning and transformers side of time series tasks.
+- Learned about project management and planning in professional setup.
+- Developed a habit of thinking about potential issues, blockers and edge cases before writing code. 
 
 ## My contributions
 
@@ -48,7 +55,7 @@ Added salesforce moirai implementation in sktime. This implementation uses the m
 |Hosting moirai large variation weights on hugging face | [sktime/moirai-1.0-R-large](https://huggingface.co/sktime/moirai-1.0-R-large) | Merged, Approved
 | Add Moirai Forecaster to sktime | [sktime/#6746](https://github.com/sktime/sktime/pull/6746) | Under Review
 
-The PR adding `moirai_forecaster` is currently under review, due to delay in work because of incompetencies in weights and MOIRAI package i.e uni2ts not hosted on PyPi. 
+The PR adding `moirai_forecaster` is currently under review, due to delay in work because of incompatibilities in weights and MOIRAI package i.e uni2ts not hosted on PyPi. 
 
 **Notebook**
 
@@ -70,6 +77,10 @@ The PR adding `moirai_forecaster` is currently under review, due to delay in wor
 | Update metadict for polars mtype| [sktime/#5423](https://github.com/sktime/sktime/issues/5423) | Closed
 | Fix nested_univ handling index names | [sktime/#7026](https://github.com/sktime/sktime/pull/7026) | Under Review
 
+
+### What's next
+- The polars support in not complete as the data in fitted in models by round conversions, and estimators don't support polars nativaly. Adding polars as inner mtype for most crucial estimators is the next step.
+- Complete the AutoLSTM interface from neuralforecast. The NeuralForecast class is under work by Xinyu Wu for enabling Global Forecasting support in it.
 
 ### Deviations in proposed work
 
