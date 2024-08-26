@@ -81,7 +81,7 @@ The PR adding `moirai_forecaster` is currently under review, due to delay in wor
 
 ### What's next
 
-- The polars support in not complete as the data in fitted in models by round conversions, and estimators don't support polars nativaly. Adding polars as inner mtype for most crucial estimators is the next step.
+- The polars support in not complete as the data is fitted in estimators by round conversions to inner_mtype, and estimators don't support polars nativaly. Adding polars as inner mtype for most crucial estimators is the next step.
 - Complete the AutoLSTM interface from neuralforecast. The NeuralForecast class is under work by Xinyu Wu for enabling Global Forecasting support in it.
 
 ### Deviations in proposed work
